@@ -1,0 +1,69 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# Visual Studio
+.vs/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# Coverage
+*.coverage
+*.coveragexml
+
+# Publish
+publish/
+*.publishproj
+
+# User secrets
+secrets.json
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore

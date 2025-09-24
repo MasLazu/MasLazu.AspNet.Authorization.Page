@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MasLazu.AspNet.Framework.Application" Version="1.0.0-preview.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MasLazu.AspNet.Authorization.Page.Abstraction\MasLazu.AspNet.Authorization.Page.Abstraction.csproj" />
+    <ProjectReference Include="..\MasLazu.AspNet.Authorization.Page.Domain\MasLazu.AspNet.Authorization.Page.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
