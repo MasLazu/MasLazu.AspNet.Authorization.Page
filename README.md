@@ -8,15 +8,10 @@ This solution follows Hexagonal Architecture (Ports and Adapters) principles, wh
 
 ```mermaid
 graph LR
-    %% Core (Most Stable to Least Stable)
     A[src/MasLazu.AspNet.Authorization.Page.Abstraction<br/>Interfaces & DTOs] --> B[src/MasLazu.AspNet.Authorization.Page.Domain<br/>Data Models]
     B --> C[src/MasLazu.AspNet.Authorization.Page<br/>Application Services]
     B --> D[src/MasLazu.AspNet.Authorization.Page.EfCore<br/>Data Persistence]
     A --> E[src/MasLazu.AspNet.Authorization.Page.Endpoint<br/>REST API]
-
-    %% Styling
-    classDef core fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef adapter fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
 
     class A,B core
     class C,D,E adapter
